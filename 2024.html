@@ -33,6 +33,55 @@
     <link rel="canonical" href="https://mango-workshop.github.io/">
 </head>
 
+<style type="text/css">
+  .schedule table {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%; /* 假设表格宽度为100%，根据需要调整 */
+    border-collapse: separate; /* 防止边框合并 */
+  }
+
+  .schedule tr:nth-child(odd) td {
+    background-color: #f9f9f9; /* 奇数行的背景颜色 */
+  }
+
+  .schedule tr:nth-child(even) td {
+    background-color: #e5e5e5; /* 偶数行的背景颜色 */
+  }
+
+  .schedule tr td {
+    padding: 1.5625em 1em;
+    border: 1px solid #dcdcdc; /* 单元格边框，根据需要调整 */
+  }
+
+  .schedule img {
+    max-height: 95px;
+    max-width: 140px;
+    margin-right: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 50%;
+  }
+
+  .abstract-content {
+    display: none;
+    padding: 5px;
+  }
+
+  .disclaimer {
+    padding-left: 25px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000; /* 免责声明文本颜色，根据需要调整 */
+  }
+
+  .disclaimer b {
+    font-weight: bold !important;
+  }
+</style>
+
 <body class="index">
     <header id="header">
         <h1 id="logo"><a href="/">MANGO</a></h1>
@@ -101,7 +150,8 @@
     <header class="major">
       <h2><strong>Schedule</strong></h2>
 
-      <table class="default">
+    <div class="schedule">
+      <table width="100%">
         <tbody>
 
           <col width="33%">
@@ -115,73 +165,74 @@
           </tr>
 
           <tr>
-            <td class="convertTimeRange">13:30 pm - 13:40 pm PT</td>
-            <td>Organizing Committee</td>
-            <td>Opening Remark</td>
+            <td><b>13:30 pm - 13:40 pm PT</b></td>
+            <td><b>Organizing Committee</b></td>
+            <td><b>Opening Remark</b></td>
           </tr>
 
           <tr>
-            <td class="convertTimeRange">13:40 pm - 14:10 pm PT</td>
-            <td>Jitendra Malik</td>
-            <td>Invited Talk1</td>
+            <td><b>13:40 pm - 14:10 pm PT</b></td>
+            <td><b>Jitendra Malik</b></td>
+            <td><b>Invited Talk1</b></td>
           </tr>
 
           <tr>
-            <td class="convertTimeRange">14:10 pm - 14:40 pm PT</td>
-            <td>Lorenzo Torresani</td>
-            <td>Invited Talk2</td>
+            <td><b>14:10 pm - 14:40 pm PT</b></td>
+            <td><b>Lorenzo Torresani</b></td>
+            <td><b>Invited Talk2</b></td>
           </tr>
 
            <tr>
-            <td class="convertTimeRange">14:40 pm - 15:10 pm PT</td>
-            <td>Zicheng Liu</td>
-            <td>Invited Talk3</td>
+            <td><b>14:40 pm - 15:10 pm PT</b></td>
+            <td><b>Zicheng Liu</b></td>
+            <td><b>Invited Talk3</b></td>
           </tr>
 
            <tr>
-            <td class="convertTimeRange">15:10 pm - 15:40 pm PT</td>
-            <td>Kristen Grauman</td>
-            <td>Invited Talk4</td>
+            <td><b>15:10 pm - 15:40 pm PT</b></td>
+            <td><b>Kristen Grauman</b></td>
+            <td><b>Invited Talk4</b></td>
           </tr>
 
            <tr>
-            <td class="convertTimeRange">15:40 pm - 16:10 pm PT</td>
-            <td>Ivan Laptev</td>
-            <td>Invited Talk5</td>
+            <td><b>15:40 pm - 16:10 pm PT</b></td>
+            <td><b>Ivan Laptev</b></td>
+            <td><b>Invited Talk5</b></td>
           </tr>
 
            <tr>
-            <td class="convertTimeRange">16:10 pm - 16:40 pm PT</td>
-            <td>Siyu Tang</td>
-            <td>Invited Talk6</td>
+            <td><b>16:10 pm - 16:40 pm PT</b></td>
+            <td><b>Siyu Tang</b></td>
+            <td><b>Invited Talk6</b></td>
           </tr>
 
            <tr>
-            <td class="convertTimeRange">16:40 pm - 17:10 pm PT</td>
-            <td>Jiajun Wu, Jiaman Li</td>
-            <td>Invited Talk7</td>
+            <td><b>16:40 pm - 17:10 pm PT</b></td>
+            <td><b>Jiajun Wu, Jiaman Li</b></td>
+            <td><b>Invited Talk7</b></td>
           </tr>
 
            <tr>
-            <td class="convertTimeRange">17:10 pm - 17:20 pm PT</td>
-            <td>Jieming Cui</td>
-            <td>Spotlight Presentation1</td>
+            <td><b>17:10 pm - 17:20 pm PT</b></td>
+            <td><b>Jieming Cui</b></td>
+            <td><b>Spotlight Presentation1</b></td>
           </tr>
 
            <tr>
-            <td class="convertTimeRange">17:20 pm - 17:30 pm PT</td>
-            <td>Lingmin Ran</td>
-            <td>Spotlight Presentation2</td>
+            <td><b>17:20 pm - 17:30 pm PT</b></td>
+            <td><b>Lingmin Ran</b></td>
+            <td><b>Spotlight Presentation2</b></td>
           </tr>
 
           <tr>
-            <td class="convertTimeRange">17:30 pm - 17:40 pm PT</td>
-            <td>Ao Li</td>
-            <td>Spotlight Presentation3</td>
+            <td><b>17:30 pm - 17:40 pm PT</b></td>
+            <td><b>Ao Li</b></td>
+            <td><b>Spotlight Presentation3</b></td>
           </tr>
 
         </tbody>
       </table>
+    </div>
     </header>
   </section>
 
