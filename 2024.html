@@ -34,52 +34,28 @@
 </head>
 
 <style type="text/css">
+
   .schedule table {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    width: 100%; /* 假设表格宽度为100%，根据需要调整 */
-    border-collapse: separate; /* 防止边框合并 */
+    width: 100%;
+    border-collapse: separate;
   }
 
   .schedule tr:nth-child(odd) td {
-    background-color: #f9f9f9; /* 奇数行的背景颜色 */
+    background-color: #f9f9f9;
   }
 
   .schedule tr:nth-child(even) td {
-    background-color: #e5e5e5; /* 偶数行的背景颜色 */
+    background-color: #e5e5e5;
   }
 
   .schedule tr td {
     padding: 1.5625em 1em;
-    border: 1px solid #dcdcdc; /* 单元格边框，根据需要调整 */
+    border: 1px solid #dcdcdc;
   }
 
-  .schedule img {
-    max-height: 95px;
-    max-width: 140px;
-    margin-right: 2px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border-radius: 50%;
-  }
-
-  .abstract-content {
-    display: none;
-    padding: 5px;
-  }
-
-  .disclaimer {
-    padding-left: 25px;
-    text-align: left;
-    font-size: 14px;
-    line-height: 16px;
-    color: #000; /* 免责声明文本颜色，根据需要调整 */
-  }
-
-  .disclaimer b {
-    font-weight: bold !important;
-  }
 </style>
 
 <body class="index">
@@ -149,9 +125,9 @@
 
     <header class="major">
       <h2><strong>Schedule</strong></h2>
+  </header>
 
-    <div class="schedule">
-      <table width="100%">
+      <table class="schedule">
         <tbody>
 
           <col width="33%">
@@ -230,11 +206,10 @@
             <td><b>Spotlight Presentation3</b></td>
           </tr>
 
-        </tbody>
-      </table>
-    </div>
-    </header>
-  </section>
+      </tbody>
+
+    </table>
+</section>
 
 
 <section class="wrapper style3 container special" id="speakers">
